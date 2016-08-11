@@ -10,7 +10,7 @@ namespace Hanami.Shared
     {
         public DependsOnAttribute(string module)
         {
-            Module = module;
+            Module = module.ToLower();
         }
 
         public string Module { get; private set; }

@@ -7,7 +7,7 @@ namespace Hanami.Shared
     {
         public StartAfterAttribute(string module)
         {
-            Module = module;
+            Module = module.ToLower();
         }
 
         public string Module { get; private set; }
