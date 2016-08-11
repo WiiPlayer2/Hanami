@@ -1,44 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Hanami.Shared.Host">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Host.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hanami.Shared.Service">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAASAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Host" />
+      <Property Name="LastData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hanami.Shared.Configuration">
+    <Position X="1" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hanami.Shared.Helper">
+    <Position X="3.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Hanami.Shared.CheckData">
+    <Position X="12.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAASAAAAACQJAAAAAA=</HashCode>
+      <FileName>CheckData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="State" />
+    </ShowAsAssociation>
+  </Struct>
   <Interface Name="Hanami.Shared.IPlugin">
-    <Position X="4.5" Y="3.25" Width="2.25" />
+    <Position X="3.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IPlugin.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Hanami.Shared.ISystem">
-    <Position X="0.75" Y="3.25" Width="3.5" />
+    <Position X="1.5" Y="3.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ISystem.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Hanami.Shared.IDatabase">
-    <Position X="7" Y="3.25" Width="1.5" />
+    <Position X="5.25" Y="3.25" Width="4" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAQAEYAAAAAACAAAAAAAAIAAAEAAACAAACACBEQ=</HashCode>
       <FileName>IDatabase.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Hanami.Shared.ICheckProvider">
-    <Position X="8.75" Y="3.25" Width="3.5" />
+    <Position X="9.5" Y="3.25" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>ICheckProvider.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Hanami.Shared.IModule">
-    <Position X="6" Y="0.5" Width="2.5" />
+    <Position X="6" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAACAAAAAAAAAAAAAAAAAAAAAAKAAQAAAAAAA=</HashCode>
       <FileName>IModule.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Enum Name="Hanami.Shared.CheckState">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQAAAAAAABAAAAAAAAAAAAABAAAAABA=</HashCode>
+      <FileName>CheckState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Delegate Name="Hanami.Shared.CheckCompletedEventHandler">
     <Position X="9.25" Y="1.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Delegates.cs</FileName>
     </TypeIdentifier>
   </Delegate>

@@ -5,5 +5,7 @@ using System.Text;
 
 namespace Hanami.Shared
 {
-    public delegate void CheckCompletedEventHandler(object sender, CheckData checkData);
+    public class HostData
+    {
+    }
 }

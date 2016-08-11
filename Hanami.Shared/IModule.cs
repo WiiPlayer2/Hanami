@@ -10,8 +10,8 @@ namespace Hanami.Shared
         string FriendlyName { get; }
         string IdentifiableName { get; }
 
-        void Start();
+        void Start(Configuration config);
         void Stop();
-        void Reload();
+        void Reload(Configuration config);
     }
 }
