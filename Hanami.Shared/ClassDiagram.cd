@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Hanami.Shared.Service">
-    <Position X="16.25" Y="2" Width="1.5" />
+    <Position X="16.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAASAAAAAAAAAAAAAA=</HashCode>
       <FileName>Service.cs</FileName>
@@ -33,7 +33,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Hanami.Shared.StartAfterAttribute">
-    <Position X="12.25" Y="5.25" Width="3.5" />
+    <Position X="12.25" Y="5.5" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>StartAfterAttribute.cs</FileName>
@@ -95,7 +95,7 @@
     </TypeIdentifier>
   </Interface>
   <Enum Name="Hanami.Shared.CheckState">
-    <Position X="13.25" Y="3.25" Width="1.5" />
+    <Position X="13.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAAAQAAAAAAABAAAAAAAAAAAAABAAAAABA=</HashCode>
       <FileName>CheckState.cs</FileName>

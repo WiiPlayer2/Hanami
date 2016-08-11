@@ -7,16 +7,11 @@ namespace Hanami.Shared
 {
     public class Host
     {
-        public string Name
+        public Host(string name)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
+            Name = name;
         }
+
+        public string Name { get; private set; }
     }
 }

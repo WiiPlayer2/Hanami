@@ -2,40 +2,16 @@
 {
     public class Service
     {
-        public Host Host
+        public Service(Host host, string name)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
+            Host = host;
+            Name = name;
         }
 
-        public Hanami.Shared.CheckData? LastData
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+        public Host Host { get; private set; }
 
-            set
-            {
-            }
-        }
+        public Hanami.Shared.CheckData? LastData { get; set; }
 
-        public string Name
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
+        public string Name { get; private set; }
     }
 }
