@@ -9,7 +9,7 @@ namespace Hanami.Shared
     {
         IDatabase Database { get; }
 
-        void AddModule(Hanami.Shared.IModule provider);
+        void AddModule(Hanami.Shared.IModule module);
         IEnumerable<IModule> GetModules();
         IEnumerable<string> GetPlugins();
         IEnumerable<IModule> GetModules(string plugin);
