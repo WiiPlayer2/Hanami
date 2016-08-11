@@ -21,7 +21,7 @@
   <Class Name="Hanami.Shared.Configuration">
     <Position X="1" Y="0.75" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAIAAAAAABABAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>Configuration.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -35,14 +35,14 @@
   <Class Name="Hanami.Shared.StartAfterAttribute">
     <Position X="12.25" Y="5.25" Width="3.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>StartAfterAttribute.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Hanami.Shared.DependsOnAttribute">
     <Position X="9.5" Y="5.25" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>DependsOnAttribute.cs</FileName>
     </TypeIdentifier>
   </Class>

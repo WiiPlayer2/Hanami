@@ -7,6 +7,11 @@ namespace Hanami.Shared
 {
     public class Configuration
     {
+        public Configuration(System.IO.Stream stream)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public T Get<T>(string name)
             where T : IConvertible
         {
@@ -27,6 +32,11 @@ namespace Hanami.Shared
 
         public void Set<T>(string name, T value)
             where T : IConvertible
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Save(System.IO.Stream stream)
         {
             throw new System.NotImplementedException();
         }
