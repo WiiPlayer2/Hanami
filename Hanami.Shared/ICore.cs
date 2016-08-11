@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Hanami.Shared
 {
-    public interface ISystem
+    public interface ICore
     {
-        IDatabase Database { get; set; }
+        IDatabase Database { get; }
 
         void AddModule(Hanami.Shared.IModule provider);
         IEnumerable<IModule> GetModules();

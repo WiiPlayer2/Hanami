@@ -7,6 +7,6 @@ namespace Hanami.Shared
 {
     public interface IPlugin : IModule
     {
-        void Load(ISystem system);
+        void Load(ICore system);
     }
 }

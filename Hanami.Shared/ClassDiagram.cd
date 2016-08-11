@@ -63,11 +63,11 @@
       <FileName>IPlugin.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Hanami.Shared.ISystem">
+  <Interface Name="Hanami.Shared.ICore">
     <Position X="0.5" Y="4.75" Width="3.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAgEAAAAAAAAAAAAAAAAFAAAAAAgAAAAAAAAA=</HashCode>
-      <FileName>ISystem.cs</FileName>
+      <FileName>ICore.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Database" />
