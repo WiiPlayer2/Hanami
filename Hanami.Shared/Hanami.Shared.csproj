@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegates.cs" />
+    <Compile Include="ICheckProvider.cs" />
+    <Compile Include="IDatabase.cs" />
+    <Compile Include="IModule.cs" />
+    <Compile Include="IPlugin.cs" />
+    <Compile Include="ISystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
