@@ -47,7 +47,6 @@
     <Compile Include="DependsOnAttribute.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Host.cs" />
-    <Compile Include="HostData.cs" />
     <Compile Include="ICheckProvider.cs" />
     <Compile Include="IDatabase.cs" />
     <Compile Include="IModule.cs" />
@@ -55,7 +54,6 @@
     <Compile Include="ISystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />
-    <Compile Include="ServiceData.cs" />
     <Compile Include="StartAfterAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
