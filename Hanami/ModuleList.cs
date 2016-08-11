@@ -8,18 +8,19 @@ using System.Collections;
 
 namespace Hanami
 {
-    class ModuleList : IEnumerable<IModule>
+    class ModuleList<T> : IEnumerable<T>
+        where T : IModule
     {
-        private Dictionary<string, IModule> modules;
+        private Dictionary<string, T> modules;
 
         public ModuleList()
         {
-            modules = new Dictionary<string, IModule>();
+            modules = new Dictionary<string, T>();
         }
 
-        public void AddModule(string plugin, IModule module)
+        public void AddModule(T module)
         {
-            var id = Helper.CombineIdentifier(plugin, module.IdentifiableName);
+            var id = Helper.CombineIdentifier(module.Plugin.IdentifiableName, module.IdentifiableName);
             if (modules.ContainsKey(id))
             {
                 throw new InvalidOperationException(string.Format("Module '{0}' is already in the list.", id));
@@ -39,7 +40,7 @@ namespace Hanami
                 .Distinct();
         }
 
-        public IModule this[string id]
+        public T this[string id]
         {
             get
             {
@@ -47,7 +48,7 @@ namespace Hanami
             }
         }
 
-        public IEnumerator<IModule> GetEnumerator()
+        public IEnumerator<T> GetEnumerator()
         {
             return modules.Values.GetEnumerator();
         }

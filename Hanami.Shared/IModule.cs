@@ -9,6 +9,7 @@ namespace Hanami.Shared
     {
         string FriendlyName { get; }
         string IdentifiableName { get; }
+        IPlugin Plugin { get; }
 
         void Start(Configuration config);
         void Stop();

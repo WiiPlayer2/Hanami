@@ -19,16 +19,16 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Hanami.Shared.Configuration">
-    <Position X="0.5" Y="0.75" Width="3" />
+    <Position X="0.5" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAABABAAAAAAAAAAAAAACQAAAAAAAAAAAA=</HashCode>
       <FileName>Configuration.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Hanami.Shared.Helper">
-    <Position X="3.75" Y="0.75" Width="2" />
+    <Position X="8.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>IAAAAAAAAAGAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Helper.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -57,7 +57,7 @@
     </ShowAsAssociation>
   </Struct>
   <Interface Name="Hanami.Shared.IPlugin">
-    <Position X="3.5" Y="3.25" Width="1.5" />
+    <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IPlugin.cs</FileName>
@@ -90,9 +90,12 @@
   <Interface Name="Hanami.Shared.IModule">
     <Position X="6" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAACAAAAAAAAAAAAAAAAAAAAAAKAAQAAAAAAA=</HashCode>
+      <HashCode>AAAAAASAACAAAAAAAAAAAAAAAAAAAAAAKAAQAAAAAAA=</HashCode>
       <FileName>IModule.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IPlugin" />
+    </ShowAsAssociation>
   </Interface>
   <Enum Name="Hanami.Shared.CheckState">
     <Position X="13.25" Y="3.5" Width="1.5" />
@@ -102,7 +105,7 @@
     </TypeIdentifier>
   </Enum>
   <Delegate Name="Hanami.Shared.CheckCompletedEventHandler">
-    <Position X="9.25" Y="1.75" Width="2.25" />
+    <Position X="1.75" Y="3" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Delegates.cs</FileName>
