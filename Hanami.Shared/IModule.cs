@@ -10,6 +10,8 @@ namespace Hanami.Shared
         string FriendlyName { get; }
         string IdentifiableName { get; }
         IPlugin Plugin { get; }
+        ModuleState State { get; set; }
+        string ErrorMessage { get; set; }
 
         void Start(Configuration config);
         void Stop();

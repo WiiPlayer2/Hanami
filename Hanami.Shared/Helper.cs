@@ -46,5 +46,10 @@ namespace Hanami.Shared
         {
             return string.Format("{0}.{1}", plugin.ToLower(), module.ToLower());
         }
+
+        public static string CombineIdentifier(IModule module)
+        {
+            return CombineIdentifier(module.Plugin.IdentifiableName, module.IdentifiableName);
+        }
     }
 }

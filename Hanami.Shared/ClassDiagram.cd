@@ -33,14 +33,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Hanami.Shared.StartAfterAttribute">
-    <Position X="11.75" Y="5.25" Width="1.75" />
+    <Position X="11.75" Y="5.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>StartAfterAttribute.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Hanami.Shared.DependsOnAttribute">
-    <Position X="9.5" Y="5.25" Width="2" />
+    <Position X="9.5" Y="5.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>DependsOnAttribute.cs</FileName>
@@ -74,14 +74,30 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="Hanami.Shared.IDatabase">
-    <Position X="5.25" Y="3.25" Width="4" />
+    <Position X="5.25" Y="3.5" Width="4" />
+    <InheritanceLine Type="Hanami.Shared.IModule" ManuallyRouted="true">
+      <Path>
+        <Point X="7" Y="3.017" />
+        <Point X="7" Y="3.323" />
+        <Point X="7.25" Y="3.323" />
+        <Point X="7.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAQAEYAAAAAACAAAAAAAAIAAAEAAACAAACACBEQ=</HashCode>
       <FileName>IDatabase.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Hanami.Shared.ICheckProvider">
-    <Position X="9.5" Y="3.25" Width="3.5" />
+    <Position X="9.5" Y="3.5" Width="3.5" />
+    <InheritanceLine Type="Hanami.Shared.IModule" ManuallyRouted="true">
+      <Path>
+        <Point X="7" Y="3.017" />
+        <Point X="7" Y="3.323" />
+        <Point X="11.25" Y="3.323" />
+        <Point X="11.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>ICheckProvider.cs</FileName>
@@ -90,11 +106,11 @@
   <Interface Name="Hanami.Shared.IModule">
     <Position X="6" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAASAACAAAAAAAAAAAAAAAAAAAAAAKAAQAAAAAAA=</HashCode>
+      <HashCode>AQAAAAQAACAAAAAAAAAEAAAAAAAAAAAAKAAQBAAAAAA=</HashCode>
       <FileName>IModule.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IPlugin" />
+      <Property Name="State" />
     </ShowAsAssociation>
   </Interface>
   <Enum Name="Hanami.Shared.CheckState">
@@ -102,6 +118,13 @@
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAAAQAAAAAAABAAAAAAAAAAAAABAAAAABA=</HashCode>
       <FileName>CheckState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hanami.Shared.ModuleState">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModuleState.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Delegate Name="Hanami.Shared.CheckCompletedEventHandler">
